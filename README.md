@@ -15,7 +15,15 @@ A robust Task Scheduler mobile application built with **Expo** and **TypeScript*
 * **Persistence:** All data is saved locally using AsyncStorage.
 * **Clean UI:** Color-coded priorities and responsive layout handling safe areas on modern devices.
 
-## [cite_start]🚀 Steps to Run [cite: 85]
+## 🎥 App Demo
+
+To see the application in action (Sorting, Grouping, Persistence, and Validation), please watch the screen recording below:
+
+**[▶️ Watch Screen Recording (Google Drive Link)](https://drive.google.com/file/d/1W3pS7WbqEu-p6fwDEV0dCqIcLLFCZF_W/view?usp=drivesdk)**
+
+*(Note: The video demonstrates creating tasks, automatic sorting logic, editing, and app persistence)*
+
+## 🚀 Steps to Run 
 
 1.  **Clone the repository:**
     ```bash
@@ -37,7 +45,7 @@ A robust Task Scheduler mobile application built with **Expo** and **TypeScript*
     * Scan the QR code with the **Expo Go** app (Android/iOS).
     * Or press `a` to run on Android Emulator / `i` to run on iOS Simulator.
 
-## [cite_start]🛠 Libraries Used [cite: 86]
+## 🛠 Libraries Used
 
 * **react-native**: Core framework.
 * **expo**: Development platform.
@@ -48,7 +56,7 @@ A robust Task Scheduler mobile application built with **Expo** and **TypeScript*
 * **react-native-safe-area-context**: Handling notches and navigation bars.
 * **@react-navigation/native & native-stack**: Navigation between Home and Detail screens.
 
-## [cite_start]🧠 Sorting & Grouping Logic [cite: 87]
+## 🧠 Sorting & Grouping Logic
 
 The application uses a custom algorithm located in `src/utils/taskLogic.ts`:
 
@@ -66,7 +74,7 @@ The application uses a custom algorithm located in `src/utils/taskLogic.ts`:
     * **Level 3:** Earlier Due Date comes first.
     * **Level 4:** Alphabetical order by Title.
 
-## [cite_start]✨ Bonus Features Implemented [cite: 88]
+## ✨ Bonus Features Implemented
 
 * **Edit Task Screen:** Users can modify existing tasks.
 * **Search Bar:** Real-time filtering of the task list.
