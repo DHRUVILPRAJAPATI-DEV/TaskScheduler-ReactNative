@@ -19,7 +19,7 @@ A robust Task Scheduler mobile application built with **Expo** and **TypeScript*
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/TaskScheduler-ReactNative.git](https://github.com/YOUR_USERNAME/TaskScheduler-ReactNative.git)
+    git clone [https://github.com/DHRUVILPRAJAPATI-DEV/TaskScheduler-ReactNative.git](https://github.com/DHRUVILPRAJAPATI-DEV/TaskScheduler-ReactNative.git)
     cd TaskScheduler-ReactNative
     ```
 
