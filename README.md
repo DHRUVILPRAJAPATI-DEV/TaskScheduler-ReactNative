@@ -19,7 +19,7 @@ A robust Task Scheduler mobile application built with **Expo** and **TypeScript*
 
 To see the application in action (Sorting, Grouping, Persistence, and Validation), please watch the screen recording below:
 
-**[▶️ Watch Screen Recording (Google Drive Link)](https://drive.google.com/file/d/1W3pS7WbqEu-p6fwDEV0dCqIcLLFCZF_W/view?usp=drivesdk)**
+**[▶️ Watch Screen Recording (Google Drive Link)](https://drive.google.com/file/d/1wnsow4EACX7H9fCNFWUgip10kfiLMUAp/view?usp=drivesdk)**
 
 *(Note: The video demonstrates creating tasks, automatic sorting logic, editing, and app persistence)*
 
