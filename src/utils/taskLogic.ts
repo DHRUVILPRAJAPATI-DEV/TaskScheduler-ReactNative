@@ -12,13 +12,13 @@ const isSameDay = (d1: Date, d2: Date) => {
 // 3. Sorting Logic (Required) 
 export const sortTasks = (tasks: Task[]): Task[] => {
   return tasks.sort((a, b) => {
-    // 4. Completed tasks always at the bottom [cite: 35]
+    // 4. Completed tasks always at the bottom
     if (a.isCompleted !== b.isCompleted) return a.isCompleted ? 1 : -1;
 
     // 1. Priority tasks with priority 1 come first [cite: 32]
     if (a.priority !== b.priority) return a.priority - b.priority;
 
-    // 2. Due date earliest due time first [cite: 33]
+    // 2. Due date earliest due time first
     const dateA = new Date(a.dueDate).getTime();
     const dateB = new Date(b.dueDate).getTime();
     if (dateA !== dateB) return dateA - dateB;
@@ -65,10 +65,11 @@ export const groupTasks = (tasks: Task[]): TaskSection[] => {
     }
   });
 
-  return [
+ const result: TaskSection[] = [
     { title: 'Overdue', data: sortTasks(sections['Overdue']) },
     { title: 'Today', data: sortTasks(sections['Today']) },
     { title: 'Tomorrow', data: sortTasks(sections['Tomorrow']) },
     { title: 'Upcoming', data: sortTasks(sections['Upcoming']) },
-  ].filter((section) => section.data.length > 0);
+  ];
+  return result;
 };
